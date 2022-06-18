@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
+import ListadoNombres from './components/Listadonombres';
 
 function App() {
   return (
-    <div className='container'>
-      
+    <div className="container">
+      <ListadoNombres/>
     </div>
   );
 }
